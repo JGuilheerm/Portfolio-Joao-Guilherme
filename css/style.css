@@ -1,0 +1,93 @@
+p {
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.foto-perfil {
+    height: 30%;
+    width: 30%;
+    border-radius: 50%;
+}
+
+.icones {
+    padding-left: 5px;
+}
+
+.titulosBrancos {
+    text-decoration: underline;
+    text-underline-position: under;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: white;
+}
+
+.titulosVerdes {
+    text-decoration: underline;
+    text-underline-position: under;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #7f4ca5
+}
+
+.paragrafoBrancos {
+    color: white !important;
+}
+
+
+.jumbotron {
+    margin-bottom: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+p {
+    color: black !important;
+}
+
+.corPrimaria {
+    background-color: #4210b800;
+}
+
+.itemMenu {
+    color: white;
+}
+
+fieldset {
+    border: 0;
+}
+
+body{
+    background-color: #F0F8FF;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 1em;
+    color: #7f4ca5;
+}
+
+.botao {
+    font-size: 1.2em;
+    background: #7f4ca5;
+    border: 0;
+    margin-bottom: 1em;
+    color: #ffffff;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    position: sticky;
+    top: 50%;
+    left: 50%;
+    margin-right: 43%;
+    
+}
+
+.botao:hover {
+    background: #CCBBFF;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
+
+.botao, select{
+    cursor: pointer;
+}
